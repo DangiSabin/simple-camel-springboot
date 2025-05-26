@@ -21,6 +21,7 @@ class SimpleCamelSpringbootApplicationTests {
 
 	@EndpointInject("mock:result")
 	protected MockEndpoint mockEndpoint;
+
     @Autowired
     private RouteBuilder routeBuilder;
 
